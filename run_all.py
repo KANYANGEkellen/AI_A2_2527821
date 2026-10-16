@@ -13,9 +13,9 @@ from src.validation import validate_dataset, validate_seed
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="Musanze Harvest Intelligence Service - full pipeline")
-    ap.add_argument("--student-id", required=True, help="e.g. ug2424671@ines.ac.rw")
-    ap.add_argument("--seed", type=int, required=True, help="LLLL = last four registration digits")
-    ap.add_argument("--reg-digits", default="REGDIGITS", help="registration number without slash")
+    ap.add_argument("--student-id", required=True, help=" ug2527821@ines.ac.rw")
+    ap.add_argument("--seed", type=int, required=True, help="LLLL = 7821")
+    ap.add_argument("--reg-digits", default="REGDIGITS", help="2527821")
     a = ap.parse_args(argv)
     try:
         seed = validate_seed(a.student_id, a.seed)
