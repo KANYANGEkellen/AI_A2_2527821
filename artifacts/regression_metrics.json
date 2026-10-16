@@ -1,0 +1,25 @@
+{
+  "verification_code": "AI-A2-7821",
+  "models": {
+    "mean_baseline": {
+      "cv_rmse_train": 2.6947,
+      "mae": 2.4717,
+      "rmse": 3.0551,
+      "r2": -0.0
+    },
+    "linear_regression": {
+      "cv_rmse_train": 1.0262,
+      "mae": 0.933,
+      "rmse": 1.2539,
+      "r2": 0.8315
+    },
+    "random_forest": {
+      "cv_rmse_train": 1.2759,
+      "mae": 1.3068,
+      "rmse": 1.5953,
+      "r2": 0.7273
+    }
+  },
+  "selected_model": "linear_regression",
+  "selection_reason": "linear_regression has the lowest 5-fold CV RMSE on the training set (1.0262); test set used only for reporting."
+}

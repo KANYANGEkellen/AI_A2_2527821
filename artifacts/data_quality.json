@@ -1,0 +1,11 @@
+{
+  "rows_raw": 274,
+  "missing_per_column": {
+    "soil_moisture_pct": 15,
+    "fertilizer_kg": 14
+  },
+  "duplicate_rows": 3,
+  "rows_after_dedup": 271,
+  "verification_code": "AI-A2-7821",
+  "sha256": "49670643c0e706b475b986d9c25834dda3fa44d9a504b36f553cef1adc9c33d0"
+}

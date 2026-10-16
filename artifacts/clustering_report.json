@@ -1,0 +1,71 @@
+{
+  "verification_code": "AI-A2-7821",
+  "silhouette_scores": {
+    "2": 0.1336,
+    "3": 0.1297,
+    "4": 0.1414,
+    "5": 0.1411,
+    "6": 0.1394
+  },
+  "selected_k": 4,
+  "selection_reason": "K=4 has the highest silhouette score (0.1414).",
+  "profiles": {
+    "0": {
+      "n_farms": 56,
+      "center_original_units": {
+        "rainfall_mm": 1212.215,
+        "avg_temp_c": 16.968,
+        "soil_moisture_pct": 57.065,
+        "fertilizer_kg": 176.076,
+        "field_size_ha": 1.741
+      },
+      "share_season_A": 0.518,
+      "share_cooperative_support": 0.536,
+      "posthoc_mean_yield_tons": 13.87,
+      "summary": "Cluster 0: 56 farms with high rainfall (1212.2), low temperature (17.0), high fertilizer (176.1)."
+    },
+    "1": {
+      "n_farms": 52,
+      "center_original_units": {
+        "rainfall_mm": 834.656,
+        "avg_temp_c": 16.757,
+        "soil_moisture_pct": 33.905,
+        "fertilizer_kg": 124.67,
+        "field_size_ha": 1.689
+      },
+      "share_season_A": 0.558,
+      "share_cooperative_support": 0.442,
+      "posthoc_mean_yield_tons": 9.854,
+      "summary": "Cluster 1: 52 farms with low rainfall (834.7), low temperature (16.8), low soil moisture (33.9)."
+    },
+    "2": {
+      "n_farms": 52,
+      "center_original_units": {
+        "rainfall_mm": 1074.569,
+        "avg_temp_c": 18.521,
+        "soil_moisture_pct": 53.968,
+        "fertilizer_kg": 45.822,
+        "field_size_ha": 2.888
+      },
+      "share_season_A": 0.346,
+      "share_cooperative_support": 0.481,
+      "posthoc_mean_yield_tons": 11.958,
+      "summary": "Cluster 2: 52 farms with low fertilizer (45.8), high field size (2.9)."
+    },
+    "3": {
+      "n_farms": 56,
+      "center_original_units": {
+        "rainfall_mm": 879.703,
+        "avg_temp_c": 22.427,
+        "soil_moisture_pct": 63.829,
+        "fertilizer_kg": 150.295,
+        "field_size_ha": 2.062
+      },
+      "share_season_A": 0.411,
+      "share_cooperative_support": 0.411,
+      "posthoc_mean_yield_tons": 12.344,
+      "summary": "Cluster 3: 56 farms with low rainfall (879.7), high temperature (22.4), high soil moisture (63.8)."
+    }
+  },
+  "interpretation": "Clusters group farms by growing conditions only (targets were not used). post-hoc yield is shown for description, not for fitting."
+}

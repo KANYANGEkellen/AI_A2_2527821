@@ -1,0 +1,22 @@
+{
+  "student_id": "ug2527821@ines.ac.rw",
+  "sha256": "49670643c0e706b475b986d9c25834dda3fa44d9a504b36f553cef1adc9c33d0",
+  "rows_raw": 274,
+  "rows_clean": 271,
+  "verification_code": "AI-A2-7821",
+  "seed": 7821,
+  "n_train": 216,
+  "n_test": 55,
+  "selected_regression": "linear_regression",
+  "selected_classifier": "logistic_regression",
+  "selected_k": 4,
+  "cluster_profiles": {
+    "0": "Cluster 0: 56 farms with high rainfall (1212.2), low temperature (17.0), high fertilizer (176.1).",
+    "1": "Cluster 1: 52 farms with low rainfall (834.7), low temperature (16.8), low soil moisture (33.9).",
+    "2": "Cluster 2: 52 farms with low fertilizer (45.8), high field size (2.9).",
+    "3": "Cluster 3: 56 farms with low rainfall (879.7), high temperature (22.4), high soil moisture (63.8)."
+  },
+  "python": "3.14.7",
+  "sklearn": "1.9.1",
+  "disclaimer": "Synthetic classroom prototype. Decision support only: it does not replace an agronomist and must not decide finance, insurance or public services. Human review is required."
+}
